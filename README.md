@@ -26,13 +26,13 @@
 
 아래 사항이 필수가 아닙니다. 필요하다면 추가로 다양한 Librery 나 도구를 사용하셔도 됩니다.
 
-- 필수 Tack Stack
+- 필수 Teck Stack
     - Javascript ( At least JS ES 6 )
         - Node.js
     - Git
     - RESTFUL
     
-- 권장 Tack Stack
+- 권장 Teck Stack
     - Typescript
     - DynamoDB
     - GraphQL
