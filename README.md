@@ -27,14 +27,14 @@
 
 아래 사항이 필수가 아닙니다. 필요하다면 추가로 다양한 Librery 나 도구를 사용하셔도 됩니다.
 
-- 필수 Teck Stack
+- 필수 Tech Stack
     - Javascript ( At least JS ES 6 )
         - Node.js
     - Git
     - GraphQL or RESTFUL 
     - DynamoDB or RDB
     
-- 권장 Teck Stack
+- 권장 Tech Stack
     - Typescript
     - Serverless
 
