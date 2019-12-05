@@ -4,7 +4,8 @@
 
 ![Test Image](./IMAGE.png)
 
-현재 FITSME의 Product Page 를 위한 API 를 설계 및 작성하시면 됩니다.
+위 상품 상세 페이지를 위한  API 를 설계 및 작성하시면 됩니다.
+
 
 ### 유의 사항
 
@@ -30,12 +31,11 @@
     - Javascript ( At least JS ES 6 )
         - Node.js
     - Git
-    - RESTFUL
+    - GraphQL or RESTFUL 
+    - DynamoDB or RDB
     
 - 권장 Teck Stack
     - Typescript
-    - DynamoDB
-    - GraphQL
     - Serverless
 
 
