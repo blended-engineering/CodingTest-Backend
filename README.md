@@ -42,4 +42,4 @@
 ## 제출 방법
 - Github(Gitlab, bitbucket) 에 공개 저장소로 제출하시면 됩니다.
 - 실행 방법 및 프로젝트 소개를 README.md 파일에 정리해 주세요
-- 과제를 완료하시면 david.pack.@cosmochain.io로 연락 주시기 바랍니다.
+- 과제를 완료하시면 people@cosmochain.io로 연락 주시기 바랍니다.
