@@ -13,6 +13,15 @@ const getProductInfoByProductId = async (req, res) => {
   }
 };
 
+const getAllProductsInfoWithSameName = async (req, res) => {
+  try {
+  } catch (e) {
+    console.error(e);
+    throw e;
+  }
+};
+
 module.exports = {
-  getProductInfoByProductId
+  getProductInfoByProductId,
+  getAllProductsInfoWithSameName
 };
