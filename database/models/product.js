@@ -11,8 +11,8 @@ module.exports = function(sequelize, Datatypes) {
         type: Datatypes.STRING,
         allowNull: false
       },
-      categoryId: {
-        type: Datatypes.INTEGER,
+      category: {
+        type: Datatypes.STRING,
         allowNull: false
       },
       brandId: {
