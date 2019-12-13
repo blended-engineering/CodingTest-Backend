@@ -76,6 +76,8 @@ DB_HOST="개인정보입니다"
   - MySQL을 활용하여 RDBMS 구현
 ![image](https://user-images.githubusercontent.com/49202512/70803948-8e04de00-1df8-11ea-9541-d49cc9cf040d.png)
 
+## Git Log
+![image](https://user-images.githubusercontent.com/49202512/70806701-4170d100-1dff-11ea-9eb1-896160b2ce18.png)
 
 ## 감사합니다.
   - 지원자 - 김해준
