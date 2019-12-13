@@ -5,7 +5,7 @@ module.exports = {
     return queryInterface.bulkInsert('product', [
       {
         productId: 1,
-        name: '파우더 키스 립스틱',
+        productName: '파우더 키스 립스틱',
         category: '립스틱',
         brandId: 1,
         price: '27000',
@@ -18,7 +18,7 @@ module.exports = {
       },
       {
         productId: 2,
-        name: '파우더 키스 립스틱',
+        productName: '파우더 키스 립스틱',
         category: '립스틱',
         brandId: 1,
         price: '27000',
@@ -31,7 +31,7 @@ module.exports = {
       },
       {
         productId: 3,
-        name: '파우더 키스 립스틱',
+        productName: '파우더 키스 립스틱',
         category: '립스틱',
         brandId: 1,
         price: '27000',
@@ -44,7 +44,7 @@ module.exports = {
       },
       {
         productId: 4,
-        name: '파우더 키스 립스틱',
+        productName: '파우더 키스 립스틱',
         category: '립스틱',
         brandId: 1,
         price: '27000',
@@ -57,7 +57,7 @@ module.exports = {
       },
       {
         productId: 5,
-        name: '파우더 키스 립스틱',
+        productName: '파우더 키스 립스틱',
         category: '립스틱',
         brandId: 1,
         price: '27000',
@@ -70,7 +70,7 @@ module.exports = {
       },
       {
         productId: 6,
-        name: '파우더 키스 립스틱',
+        productName: '파우더 키스 립스틱',
         category: '립스틱',
         brandId: 1,
         price: '27000',
@@ -83,7 +83,7 @@ module.exports = {
       },
       {
         productId: 7,
-        name: '파우더 키스 립스틱',
+        productName: '파우더 키스 립스틱',
         category: '립스틱',
         brandId: 1,
         price: '27000',
@@ -96,7 +96,7 @@ module.exports = {
       },
       {
         productId: 8,
-        name: '입생로랑 립스틱',
+        productName: '입생로랑 립스틱',
         category: '립스틱',
         brandId: 2,
         price: '32000',
@@ -109,7 +109,7 @@ module.exports = {
       },
       {
         productId: 9,
-        name: '슈에무라 립스틱',
+        productName: '슈에무라 립스틱',
         category: '립스틱',
         brandId: 3,
         price: '23000',
@@ -122,7 +122,7 @@ module.exports = {
       },
       {
         productId: 10,
-        name: '샤넬 립스틱',
+        productName: '샤넬 립스틱',
         category: '립스틱',
         brandId: 4,
         price: '29000',
@@ -135,7 +135,7 @@ module.exports = {
       },
       {
         productId: 11,
-        name: '샤넬 립스틱2',
+        productName: '샤넬 립스틱2',
         category: '립스틱',
         brandId: 4,
         price: '30000',
@@ -148,7 +148,7 @@ module.exports = {
       },
       {
         productId: 12,
-        name: '샤넬 립스틱3',
+        productName: '샤넬 립스틱3',
         category: '립스틱',
         brandId: 4,
         price: '35000',
@@ -166,7 +166,7 @@ module.exports = {
 
       Example:
       return queryInterface.bulkInsert('People', [{
-        name: 'John Doe',
+        productName: 'John Doe',
         isBetaMember: false
       }], {});
     */
