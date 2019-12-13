@@ -63,7 +63,15 @@ const readAllProductsInfoByName = async productName => {
     });
 };
 
+const readAllProductData = async () => {
+  return db.product.findAll().catch(err => {
+    console.error(err);
+    throw err;
+  });
+};
+
 module.exports = {
   readProductInfoByProductId,
-  readAllProductsInfoByName
+  readAllProductsInfoByName,
+  readAllProductData
 };
