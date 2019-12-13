@@ -5,17 +5,17 @@ module.exports = {
     return queryInterface.bulkInsert('groupColor', [
       {
         groupColorId: 1,
-        groupColorName: '빨간색 계열1',
+        groupColorName: '빨간색 계열',
         groupColorRGB: '#ff0000'
       },
       {
         groupColorId: 2,
-        groupColorName: '주황색 계열1',
+        groupColorName: '주황색 계열',
         groupColorRGB: '#ff5e00'
       },
       {
         groupColorId: 3,
-        groupColorName: '주홍색 계열1',
+        groupColorName: '주홍색 계열',
         groupColorRGB: '#ff007f'
       }
     ]);
