@@ -6,7 +6,7 @@ const readProductInfoByProductId = async productId => {
       where: { productId },
       attributes: [
         'productId',
-        'name',
+        'productName',
         'category',
         'price',
         'weight',
@@ -45,6 +45,25 @@ const readProductInfoByProductId = async productId => {
     });
 };
 
+const readAllProductsInfoByName = async productName => {
+  return db.product
+    .findAll({
+      where: { productName },
+      attributes: ['productId', 'productName'],
+      include: [
+        {
+          model: db.detailColor,
+          attributes: ['detailColorName', 'detailColorRGB']
+        }
+      ]
+    })
+    .catch(e => {
+      console.error(e);
+      throw e;
+    });
+};
+
 module.exports = {
-  readProductInfoByProductId
+  readProductInfoByProductId,
+  readAllProductsInfoByName
 };
