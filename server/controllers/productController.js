@@ -1,15 +1,21 @@
 import {
   readProductInfoByProductId,
-  readAllProductsInfoByName
+  readAllProductsInfoByName,
+  readAllProductDiffNameSameCaterory
 } from '../models/productModel';
 
 const getProductInfoByProductId = async (req, res) => {
   try {
     let getProductInfo = await readProductInfoByProductId(req.params.productId);
-    const productName = getProductInfo.dataValues.productName;
+    const { category, productName } = getProductInfo.dataValues;
     let otherColorProducts = await readAllProductsInfoByName(productName);
+    let relatedProducts = await readAllProductDiffNameSameCaterory(
+      productName,
+      category
+    );
     getProductInfo = getProductInfo.dataValues;
     getProductInfo.otherColorProducts = otherColorProducts;
+    getProductInfo.relatedProducts = relatedProducts;
     return res.json(getProductInfo);
   } catch (e) {
     console.error(e);

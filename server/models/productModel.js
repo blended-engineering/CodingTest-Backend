@@ -1,4 +1,5 @@
 const db = require('../../database/models');
+const Op = db.Sequelize.Op;
 
 const readProductInfoByProductId = async productId => {
   return await db.product
@@ -45,6 +46,23 @@ const readProductInfoByProductId = async productId => {
     });
 };
 
+const readAllProductDiffNameSameCaterory = async (productName, category) => {
+  return db.product
+    .findAll({
+      where: { category, productName: { [Op.not]: productName } },
+      include: [
+        {
+          model: db.brand,
+          attributes: ['brandName']
+        }
+      ]
+    })
+    .catch(e => {
+      console.error(e);
+      throw e;
+    });
+};
+
 const readAllProductsInfoByName = async productName => {
   return db.product
     .findAll({
@@ -73,5 +91,6 @@ const readAllProductData = async () => {
 module.exports = {
   readProductInfoByProductId,
   readAllProductsInfoByName,
+  readAllProductDiffNameSameCaterory,
   readAllProductData
 };
