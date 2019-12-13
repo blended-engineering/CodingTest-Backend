@@ -24,7 +24,7 @@ module.exports = function(sequelize, Datatypes) {
   );
   groupColor.associate = function(db) {
     groupColor.hasMany(db.product, { foreignKey: 'groupColorId' });
-    groupColor.hasMany(db.detailColor, { foreignKey: 'detailColorId' });
+    groupColor.hasMany(db.detailColor, { foreignKey: 'groupColorId' });
   };
   return groupColor;
 };
