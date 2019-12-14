@@ -35,7 +35,8 @@ DB_HOST="개인정보입니다"
   
 ## Completed API
 **<http://127.0.0.1:3000/product/1>**
-
+  - Response
+![image](https://user-images.githubusercontent.com/49202512/70842436-fc808500-1e66-11ea-8044-5eff8c6dd46c.png)
   - [GET] /product/:productId
   - "제품 정보", "가격 비교", "관련 상품", "색상", "리뷰"를 모두 포함한 API
   
