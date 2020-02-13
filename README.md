@@ -40,6 +40,8 @@
 
 
 ## 제출 방법
-- Github(Gitlab, bitbucket) 에 공개 저장소로 제출하시면 됩니다.
-- 실행 방법 및 프로젝트 소개를 README.md 파일에 정리해 주세요
-- 과제를 완료하시면 people@cosmochain.io로 연락 주시기 바랍니다.
+- Github 나 Gitlab 에 private repository 를 만들어주세요.
+- 모든 코드의 변경 과정을 잘 정리해서 commit 해주세요.
+  - commit message 도 잘 적어주세요.
+- 실행 방법 및 프로젝트 소개를 README.md 파일에 정리해 주세요.
+- 제한 시간 안에 마무리하신 후 해당 repository 에 recruit@cosmochain.io 계정을 collaborator(github), members(gitlab, reporter 이상의 권한 필요)로 추가해주신 후, Contact 중인 담당자 이메일로 repository 의 https 주소를 공유해주세요.
